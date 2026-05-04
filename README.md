@@ -19,9 +19,8 @@ and testing related to the study. Below is a breakdown of the key folders and fi
 - Located in the `LAMMPS_Input_Scripts` folder.
 - Includes:
   - `in.lmp.DIR_INDEX_NPT.txt` for NPT simulation to obtain average densities at a given state point for a given system
-  - `in.lmp.DIR_INDEX_HeatFluxDecom.txt` for reshaping the cubic simulation box into a cuboid box and then performing NEMD simulations with heat flux decomposition
-       The outputs of `in.lmp.DIR_INDEX_HeatFluxDecom.txt` contain the instantaneous heat fluxes as described in the reference paper.
-       Time averaging the intantaneous heat fluxes (post equilibration) and dividing by the imposed heat flux gives the fractional heat fluxes Q'
+  - `in.lmp.DIR_INDEX_HeatFluxDecom.txt` for reshaping the cubic simulation box into a cuboid box and then performing NEMD simulations with heat flux decomposition.
+  - The outputs of `in.lmp.DIR_INDEX_HeatFluxDecom.txt` contain the instantaneous heat fluxes as described in the reference paper. Time averaging the intantaneous heat fluxes (post equilibration) and dividing by the imposed heat flux gives the fractional heat fluxes Q'
 
 
 ### 3. Postprocessing Scripts
