@@ -45,7 +45,7 @@ and testing related to the study. Below is a breakdown of the key folders and fi
 
 Note: For some new system, all that is needed to use the HFD-BC method is to obtain the fractional heat fluxes and NEMD computed $\lambda$ following the guidance above.
 $N_H$ and $N_{non-H}$ can easily be determined by the user for their specific system. For mixtures, follow the guidance in the reference paper. 
-The given all the required fractional heat fluxes, the uncorrected NEMD computed $\lambda$, $N_H$ and $N_{non-H}, the HFD-BC corrected $\lambda$ can easily be computed using equations 5 and 6 as described in the reference paper.
+Then given all the required fractional heat fluxes, the uncorrected NEMD computed $\lambda$ , $N_H$ and $N_{non-H}$, the HFD-BC corrected $\lambda$ can easily be computed using equations 5 and 6 as described in the reference paper.
 
 ---
 
